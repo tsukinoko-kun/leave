@@ -19,5 +19,10 @@
   ],
   "icons": {
     "128": "icon.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "leave@frankmayer.dev"
+    }
   }
 }

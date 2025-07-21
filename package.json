@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "build:firefox": "web-ext build --source-dir ./ --artifacts-dir ./dist --overwrite-dest",
+        "build:chrome": "web-ext build --source-dir ./ --artifacts-dir ./dist --overwrite-dest"
+    },
+    "devDependencies": {
+        "web-ext": "^8.9.0"
+    }
+}
