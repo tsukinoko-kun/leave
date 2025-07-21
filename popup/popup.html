@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leave</title>
+</head>
+
+<body>
+  <h1>Leave Settings</h1>
+  <div>
+    <div>Current site: <span id="origin">Loading...</span></div>
+    <label>
+      <input type="checkbox" id="site-toggle" />
+      Enable on this site
+    </label>
+  </div>
+  <hr />
+  <div>
+    <label>
+      <input type="checkbox" id="default-toggle" />
+      Enable by default
+    </label>
+  </div>
+  <div id="reload-warning" style="color: red; display: none; margin-top: 10px;">
+    Please reload the site for changes to take effect.
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "Leave",
+  "description": "Fix input fields that send on enter",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": ["https://*/*"]
+    }
+  ],
+  "icons": {
+    "128": "icon.png"
+  }
+}
