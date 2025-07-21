@@ -20,6 +20,8 @@ Leave is a browser extension that prevents input fields from submitting or sendi
 3. Enable "Developer mode" or "Debug mode".
 4. Click "Load unpacked" (Chrome) or "Load Temporary Add-on" (Firefox) and select the project folder.
 
+[Firefox Add-On Store](https://addons.mozilla.org/en-US/firefox/addon/leave/)
+
 ## Usage
 - Click the extension icon to open the settings popup.
 - See the current site's origin and toggle "Enable on this site" to whitelist or blacklist the site.
