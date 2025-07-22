@@ -6,7 +6,7 @@ Leave is a browser extension that prevents input fields from submitting or sendi
 - Prevents Enter key from submitting forms or sending messages on websites.
 - Settings popup to enable or disable the extension per site (whitelist/blacklist).
 - Default setting to control behavior on all sites not explicitly set.
-- Settings are stored locally in Firefox and synced in Chrome.
+- Settings are stored locally.
 
 ## Tested
 - [t3.chat](https://t3.chat/)

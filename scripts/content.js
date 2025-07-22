@@ -1,5 +1,4 @@
-const storageBackend = (typeof browser !== "undefined" ? browser.storage : chrome.storage).storage;
-const storage = storageBackend.sync || storageBackend.local;
+const storage = (typeof browser !== 'undefined' ? browser : chrome).storage.local;
 
 function getSettings() {
   return new Promise((resolve) => {
